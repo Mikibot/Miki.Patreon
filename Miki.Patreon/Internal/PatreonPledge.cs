@@ -28,7 +28,7 @@ namespace Miki.Patreon.Types
 	public class PatreonEntity
 	{
 		[JsonProperty("attributes")]
-		public JObject attributes { get; set; }
+		public JObject Attributes { get; set; }
 
 		[JsonProperty("id")]
 		public string Id { get; set; }
